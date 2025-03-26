@@ -2,18 +2,18 @@ name: ewb-energy-model
 channels:
   - defaults
 dependencies:
-  - python=3.11.7
-  - numpy=1.26.4
-  - pandas=2.1.4
-  - matplotlib=3.8.0
-  - seaborn=0.12.2
-  - scikit-learn=1.2.2
-  - statsmodels=0.14.0
-  - tensorflow=2.15.0
-  - keras=2.15.0
-  - notebook=7.0.6
-  - pip=23.3.1
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - statsmodels
+  - tensorflow
+  - keras
+  - notebook
+  - pip
   - pip:
-      - pmdarima==2.0.4
-      - shap==0.44.1
-      - influxdb==5.3.1
+      - pmdarima
+      - shap
+      - influxdb
