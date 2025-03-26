@@ -1,7 +1,6 @@
 name: ewb-energy-model
 channels:
   - defaults
-  - conda-forge
 dependencies:
   - python=3.11
   - numpy
