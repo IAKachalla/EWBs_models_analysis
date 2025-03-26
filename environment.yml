@@ -9,11 +9,11 @@ dependencies:
   - seaborn=0.12.2
   - scikit-learn=1.2.2
   - statsmodels=0.14.0
-  - tensorflow
-  - keras
-  - notebook
+  - tensorflow=2.15.0
+  - keras=2.15.0
+  - notebook=7.0.6
   - pip=23.3.1
   - pip:
-      - pmdarima
-      - shap
-      - influxdb
+      - pmdarima==2.0.4
+      - shap==0.44.1
+      - influxdb==5.3.1
